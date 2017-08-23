@@ -1,0 +1,12 @@
+files:
+  - source: /modules/apps/**/*-web/src/main/resources/content/Language.properties
+    translation: '%original_path%/language_%two_letters_code%.properties'
+    languages_mapping:
+      two_letters_code:
+        zh-CN: locale_with_underscore
+        zh-TW: locale_with_underscore
+        nl: locale_with_underscore
+        pt-PT: locale_with_underscore
+        pt-BR: locale_with_underscore
+        sr: locale_with_underscore
+        sr-CS: locale_with_underscore
