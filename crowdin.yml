@@ -1,5 +1,5 @@
 files:
-  - source: /modules/apps/**/src/main/resources/content/Language.properties
+  - source: /modules/apps/**/content/Language.properties
     translation: '%original_path%/language_%two_letters_code%.properties'
     languages_mapping:
       two_letters_code:
